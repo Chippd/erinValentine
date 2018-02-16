@@ -87,7 +87,11 @@ body {
 }
 
 
-
+#heartsContainer {
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
 .x1 {
   left: 5%;
@@ -127,7 +131,7 @@ body {
     -moz-animation: moveclouds 18s linear infinite, sideWays 0zs ease-in-out infinite alternate;
 }
 .x5 {
-    left: 88%;
+    left: 17%;
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
     transform: scale(0.8);
@@ -135,28 +139,26 @@ body {
     -webkit-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
     -moz-animation: moveclouds 7s linear infinite, sideWays 1s ease-in-out infinite alternate;
 }
-.x6 {
-    left: 33%;
-    opacity: 1; 
-    -webkit-animation: moveclouds 2s linear infinite, swayWays 1s ease-in-out infinite alternate;
-    animation: moveclouds 10s linear infinite, swayWays 9s ease-in-out infinite alternate;
-}
 
 @-webkit-keyframes moveclouds { 
     0% { 
-        top: 732px;
+        top: 0px;
+        opacity:1;
     }
     100% { 
         top: -732px;
+        opacity:0;
     }
 }
 
 @keyframes moveclouds {     
     0% { 
-        top: 732px;
+        top: 0px;
+        opacity:1;
     }
     100% { 
         top: -732px;
+        opacity:0;
     }
 }
 
@@ -177,27 +179,6 @@ body {
       margin-left:50px;
   }
 }
-
-@-keyframes swayWays {
-  0% {
-    transform: rotate(12deg);
-    left:-0.3%;
-  }
-  33%{
-    transform: rotate(-2deg);
-    left: 0.7%;
-  }
-  100% {
-    transform: rotate(0deg);
-    left:-12%;
-  }
-}
-
-
-
-
-
-
 
 
 
