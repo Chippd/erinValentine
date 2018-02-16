@@ -1,0 +1,98 @@
+body {
+	background: pink;
+	font-family: sans-serif;
+}
+
+
+
+/*Utilities*/
+.hidden {
+	display: none;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.mainpic-holder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  margin-top: 130px;
+}
+
+.mainpic {
+	border-radius: 50%;
+	width: 600px;
+	border: 10px solid white;
+}
+
+.media-select {
+	margin-top: 100px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 13px 2px #0000003b;
+  align-items: center;
+  display: flex;
+  padding: 30px 0px;
+}
+
+.media-select .button {
+	color:#7b7b7b;
+	text-align:center;
+	width: 33%;
+	display: inline-block;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.media-select .button.selected {
+	font-weight:400;
+}
+
+.media-select .button p {
+	margin:0;
+}
+
+.play-funny-time {
+	border-right: 1px solid #9e9e9e;
+	border-left: 1px solid #9e9e9e;
+}
+
+#media-playing {
+	margin-top: 40px;
+	text-align:center;
+	color:white;
+	font-size:48px;
+	overflow:elipsis;
+	height:158px;
+}
+
+#media-controls {
+	margin-top: 50px;
+	padding: 0px 90px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#media-controls .control {
+	text-align: center
+}
+
+.control.playpause {
+	border: 5px solid white;
+	padding: 20px;
+	border-radius: 50%;
+}
+
+/*.media-select-hr {
+	display: none;
+	border: 2px solid gainsboro;
+	width: 50%;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}*/
+
