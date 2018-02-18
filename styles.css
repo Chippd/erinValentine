@@ -77,7 +77,8 @@ body {
 }
 
 #media-controls .control {
-	text-align: center
+	text-align: center;
+	cursor: pointer;
 }
 
 .control.playpause {
