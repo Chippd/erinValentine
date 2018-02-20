@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>pause-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.35">
+        <g id="pause-button" fill="#FFFFFF">
+            <g id="Group" transform="translate(76.000000, 46.000000)">
+                <rect id="Rectangle" x="0" y="0" width="8.78873239" height="108"></rect>
+                <rect id="Rectangle-Copy" x="39.2112676" y="0" width="8.78873239" height="108"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
